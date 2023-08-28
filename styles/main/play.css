@@ -1,0 +1,109 @@
+.container-play{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background: linear-gradient(to left, var(--linear-blue), var(--linear-blue));
+}
+
+.container{
+    margin: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-title{
+    margin: 5vw;
+    color: var(--font-header-footer-color);
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.guess-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+}
+
+.input-guess{
+    padding: 2vw;
+    font-size: 25px;
+    border-radius: 2vw;
+    outline: none;
+}
+
+.input-guess:focus{
+    border: 2px solid var(--font-purple);
+}
+
+.button-guess{
+    margin: 1vw;
+    padding: 5vw;
+    font-size: 16px;
+    border-radius: 2rem;
+    color: var(--font-yellow);
+    background-color: var(--font-purple);
+    box-shadow: 3px 3px 0px var(--font-yellow);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button-guess:hover{
+    color: var(--font-purple);
+    background-color: var(--font-yellow);
+    box-shadow: 3px 3px 0px var(--font-purple);
+    cursor: pointer;
+}
+
+.information{
+    margin-top: 5vw;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--font-yellow);
+    -webkit-text-stroke: 1px var(--font-color);
+}
+
+.explanation-paragraph{
+    color: white;
+    margin: 1vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 820px) {
+    .play-title{
+        margin: 2vw;
+        font-size: 45px;
+    }
+
+    .guess-area{
+        flex-direction: row;
+        gap: 1vw;
+    }
+
+    .input-guess{
+        padding: 1vw;
+        font-size: 18px;
+        border-radius: 1vw;
+    }
+
+    .button-guess{
+        margin: 0vw;
+        padding: 1.5vw;
+        font-size: 14px;
+        border-radius: 1.5rem;
+        text-transform: uppercase;
+    }
+    
+}

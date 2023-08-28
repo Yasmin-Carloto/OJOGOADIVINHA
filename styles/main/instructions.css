@@ -1,0 +1,92 @@
+main{
+    background: url("https://newsroom.unsw.edu.au/sites/default/files/styles/full_width/public/thumbnails/image/video_gamer_holding_controller_with_fighting_game_in_the_background_2.jpg?itok=g3CCkfce") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-instructions{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background: linear-gradient(to left, var(--linear-blue), var(--linear-blue));
+}
+
+.container-explanation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vw;
+
+    color: var(--font-header-footer-color);
+}
+
+.explanation-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 2vw;
+}
+
+.explanation-paragraph{
+    font-size: 18px;
+    line-height: 3vh;
+}
+
+.container-rules{
+    display: flex;
+    flex-direction: column;
+    margin: 0vw 30vw;
+    gap: 3vw;
+}
+
+.rule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: var(--font-header-footer-color);
+    font-weight: 600;
+}
+
+.rule-explanation{
+    font-size: 18px;
+    line-height: 5vw;
+}
+
+.rule-image{
+    border-radius:2vw;
+}
+
+@media (min-width: 820px) {
+    .container-explanation{
+        padding: 1vw;
+    }
+
+    .explanation-title{
+        font-size: 45px;
+        margin: 1vw;
+    }
+
+    .explanation-paragraph{
+        font-size: 20px;
+        line-height: 2.5vh;
+        margin: 0 0;
+        
+    }
+
+    .container-rules{
+        margin: 0vw 0vw;
+        gap: 0;
+        line-height: 1vw;
+    }
+
+    .rule-explanation{
+        font-size: 20px;
+        margin: 0vw;
+    }
+}

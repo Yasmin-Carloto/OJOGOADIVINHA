@@ -1,0 +1,58 @@
+main{
+    background: url("https://newsroom.unsw.edu.au/sites/default/files/styles/full_width/public/thumbnails/image/video_gamer_holding_controller_with_fighting_game_in_the_background_2.jpg?itok=g3CCkfce") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-invite{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    background: linear-gradient(to left, var(--linear-blue), var(--linear-blue));
+}
+
+.container-invite-play{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw;
+    margin: 5vw;
+}
+
+.main-title{
+    font-family: var(--font-game);
+    font-weight: 900;
+    font-size: 70px;
+    margin: 0.2vh;
+    color: var(--font-purple);
+    -webkit-text-stroke: 1px var(--font-color);
+}
+
+.game{
+    font-family: var(--font-game);
+    color: var(--font-yellow);
+    -webkit-text-stroke: 1px var(--font-color);
+    text-shadow: 5px 5px 0 var(--font-purple);
+}
+
+.start-button{
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 16px;
+    border-radius: 2rem;
+    color: var(--font-yellow);
+    background-color: var(--font-purple);
+    box-shadow: 3px 3px 0px var(--font-yellow);
+    font-weight: 600;
+}
+
+.start-button:hover{
+    color: var(--font-purple);
+    background-color: var(--font-yellow);
+    box-shadow: 3px 3px 0px var(--font-purple);
+    cursor: pointer;
+}

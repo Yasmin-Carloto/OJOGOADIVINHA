@@ -1,0 +1,29 @@
+@import url("./header/header.css");
+@import url("./main/main.css");
+@import url("./footer/footer.css");
+@import url("./main/instructions.css");
+@import url("./main/play.css");
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+:root{
+    --bg-header-footer: #008cbf;
+    --bg-header-hover: #006c94;
+    --font-header-footer-color: #ffffff;
+    --bg-play-hover: rgb(219, 0, 0);
+    --linear-blue:  rgba(0, 0, 255, 0.3);
+    --linear-purple: var(rgba(128, 0, 128, 0.3));
+    --font-color: black;
+    --font-purple: rgb(222, 0, 222);
+    --font-yellow: #fff200;
+    --font-game: 'Orbitron', sans-serif;
+
+
+    --main-font: 'Public Sans', sans-serif;
+    --main-weight: 400;
+    --main-font-size: 16px;
+}
+
+body{
+    font-family: var(--main-font);
+}

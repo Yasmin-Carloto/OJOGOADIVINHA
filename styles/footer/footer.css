@@ -1,0 +1,12 @@
+footer{
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-header-footer);
+}
+
+.footer-title{
+    color: var(--font-header-footer-color);
+    font-weight: 500;
+}
